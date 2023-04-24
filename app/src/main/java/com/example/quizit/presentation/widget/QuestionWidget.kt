@@ -16,7 +16,7 @@ import androidx.compose.ui.graphics.Color.Companion.Transparent
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.quizit.domain.model.Question
+import com.example.quizit.model.Question
 import com.example.quizit.ui.theme.AccentGreen
 import com.example.quizit.ui.theme.GreyBG
 import com.example.quizit.ui.theme.LightGrey

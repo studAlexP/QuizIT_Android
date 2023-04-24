@@ -1,4 +1,4 @@
-package com.example.quizit.domain.model
+package com.example.quizit.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

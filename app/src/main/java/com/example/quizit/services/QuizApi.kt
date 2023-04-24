@@ -1,16 +1,16 @@
-package com.example.quizit.data.network
+package com.example.quizit.services
 
-import com.example.quizit.domain.model.Question
+import com.example.quizit.model.Question
 import io.ktor.client.*
 import io.ktor.client.call.*
 import io.ktor.client.plugins.*
 import io.ktor.client.request.*
 
-class QuizApiImpl(
+class QuizApi(
     private val client: HttpClient
-): QuizApi {
+) {
 
-    override suspend fun getQuestion(
+    suspend fun getQuestion(
         category: String,
         difficulty: String,
         limit: String

@@ -1,4 +1,4 @@
-package com.example.quizit.domain.util
+package com.example.quizit.utils
 
 /**
  * Settings object to store API query parameters and players name
